@@ -10,8 +10,8 @@
         "host": "localhost",
         "port": 5432,
         "database": "evershop",
-        "user": "evershop",
-        "password": "evershop"
+        "user": "postgres",
+        "password": "ever"
       }
     }
   }
