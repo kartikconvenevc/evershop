@@ -4,7 +4,7 @@ module.exports = () => {
   const sendgridConfig = {
     apiKey: '',
     from: 'Customer Service <hello@evershop.io>',
-    fromName: 'Evershop',
+    fromName: 'CBS',
     events: {
       order_placed: {
         subject: 'Order Confirmation',

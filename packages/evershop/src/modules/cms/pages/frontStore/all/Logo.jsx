@@ -57,7 +57,7 @@ Logo.defaultProps = {
   themeConfig: {
     logo: {
       src: '',
-      alt: 'Evershop',
+      alt: 'CBS',
       width: '128',
       height: '146'
     }

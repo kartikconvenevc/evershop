@@ -46,7 +46,7 @@ module.exports = async function sendOrderConfirmationEmail(data) {
     // Send the email
     const msg = {
       to: customer.email,
-      subject: customerRegistered.subject || `Welcome to Evershop`,
+      subject: customerRegistered.subject || `Welcome to CBS`,
       from,
       templateId: customerRegistered.templateId,
       dynamicTemplateData: {
